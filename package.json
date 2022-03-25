@@ -3,7 +3,7 @@
   "displayName": "easyVar",
   "publisher": "easyVar",
   "description": "帮助中文翻译成英文的vscode插件",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.63.0"
@@ -25,7 +25,7 @@
     "keybindings": [
       {
         "command": "easyvar.fanyin",
-        "key": "Ctrl+.",
+        "key": "ctrl+alt+.",
         "mac": "cmd+.",
         "when": "editorTextFocus"
       }
