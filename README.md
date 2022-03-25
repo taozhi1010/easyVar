@@ -5,7 +5,7 @@
 - MAC ` Cmd+.`
 - 其它 ` Ctrl+Alt+.`
 
-<img src="https://raw.githubusercontent.com/taozhi1010/easyVar/master/images/example.gif" width="500px" />
+<img src="https://raw.githubusercontent.com/taozhi1010/easyVar/master/images/example.gif" width="800px" />
 
 ### 为什么使用它
 
