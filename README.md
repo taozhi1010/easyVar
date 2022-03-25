@@ -18,6 +18,8 @@
 
 如果这个插件有幸对你有所帮助，欢迎打赏一杯咖啡，以支持作者！
 开源不易, 有了您的赞助, 我们会做的更好~
-<img src="http://cdn.dooring.cn/dr/WechatIMG2.jpeg" width="180px" /><img src="http://cdn.dooring.cn/dr/WechatIMG2.jpeg" width="180px" />
+
+<img src="https://raw.githubusercontent.com/taozhi1010/easyVar/master/images/alipay.png" width="180px" />
+<img src="https://raw.githubusercontent.com/taozhi1010/easyVar/master/images/wechat.png" width="180px" />
 
 **Enjoy!**
