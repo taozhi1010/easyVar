@@ -5,6 +5,8 @@
 - MAC ` Cmd+.`
 - 其它 ` Ctrl+Alt+.`
 
+<img src="https://raw.githubusercontent.com/taozhi1010/easyVar/master/images/example.gif" width="500px" />
+
 ### 为什么使用它
 
 - 直接将选中的中文替换为英文
