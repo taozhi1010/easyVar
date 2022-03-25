@@ -2,8 +2,8 @@
 
 **Note:** 选中文本 按下快捷键
 
-- MAC `  Cmd+.`
-- 其它 `  Ctrl+Alt+.`
+- MAC ` Cmd+.`
+- 其它 ` Ctrl+Alt+.`
 
 ### 为什么使用它
 
@@ -11,9 +11,13 @@
 - 没有语意的中文替换为中文拼音
 - 小驼峰命名
 
+### 遇到问题
+
+- [issues](https://github.com/taozhi1010/easyVar/issues)
+
 ### 友情链接
 
-- [仓库地址](https://github.com/taozhi1010/)
+- [仓库地址](https://github.com/taozhi1010/easyVar)
 - [README](https://github.com/taozhi1010/easyVar#readme)
 
 ### 打赏作者
