@@ -1,8 +1,9 @@
 {
 	"name": "easyvar",
 	"displayName": "easyVar",
+	"publisher":"easyVar",
 	"description": "帮助中文翻译成英文的vscode插件",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"engines": {
 		"vscode": "^1.65.0"
 	},
@@ -17,7 +18,7 @@
 		"commands": [
 			{
 				"command": "easyvar.fanyin",
-				"title": "Hello World"
+				"title": "中英转换"
 			}
 		],
 		"keybindings": [
