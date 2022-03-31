@@ -21,6 +21,10 @@ function activate(context) {
 	let disposable = vscode.commands.registerCommand('easyvar.fanyin', function () {
 		// The code you place here will be executed every time your command is executed
 		let editor = vscode.window.activeTextEditor;
+		let fileName = editor.document.fileName
+		let index = fileName.lastIndexOf(".");
+		//获取后缀
+		let ext = fileName.substr(index + 1);
 		let selection = editor.selection
 		let text = editor.document.getText(selection)
 		const url = 'https://aip.baidubce.com/rpc/2.0/mt/texttrans/v1?access_token=24.9a7e756cab6e9a22c86b63b24a8ce048.2592000.1650768311.282335-25841809'
@@ -33,13 +37,19 @@ function activate(context) {
 				return
 			}
 			let text = body.result.trans_result[0].dst
-			let replaceText = _.camelCase(text);
+			let replaceText
+			if (['css', 'less', 'sass', 'scss'].includes(ext)) {
+				replaceText = _.snakeCase(text).replace(new RegExp('_', 'g'), "-");
+			} else {
+				replaceText = _.camelCase(text);
+			}
+
 			editor.edit(editorEdit => {
 				// 这里可以做以下操作: 删除, 插入, 替换, 设置换行符
 				editorEdit.replace(selection, replaceText);
 			})
 		})
-		
+
 	});
 
 	context.subscriptions.push(disposable);
