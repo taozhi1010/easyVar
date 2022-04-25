@@ -7,3 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.2.3]
 
 - 样式文件转换为中划线 XX-XX
+
+## [1.2.4]
+
+- 更换翻译接口
