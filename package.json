@@ -6,7 +6,7 @@
   "version": "1.2.4",
   "icon": "images/icon.png",
   "engines": {
-    "vscode": "^1.63.0"
+    "vscode": "^1.50.0"
   },
   "categories": [
     "Other"
@@ -40,7 +40,7 @@
     "@types/glob": "^7.2.0",
     "@types/mocha": "^9.1.0",
     "@types/node": "14.x",
-    "@types/vscode": "^1.63.0",
+    "@types/vscode": "^1.50.0",
     "@vscode/test-electron": "^2.1.2",
     "eslint": "^8.9.0",
     "glob": "^7.2.0",
